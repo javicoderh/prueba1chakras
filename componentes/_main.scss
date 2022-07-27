@@ -1,0 +1,88 @@
+main {
+ /*background-image: url(https://i.pinimg.com/originals/08/3e/26/083e2631f048d7babf425c1be9019771.gif);*/
+background-size:contain;
+height: 55vh;
+width: 100%;
+overflow: hidden;
+
+.main__container { 
+ position:absolute;
+ left: 205px;
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ height: 80vh;
+ width: 100;
+ margin:0;
+ gap: 2%;
+
+ .main__chakra {   
+  border-radius: 50%;
+  text-decoration: none;  
+  }
+  
+  figcaption {   
+   transform: scale(1.5);
+   text-decoration: none;   
+   }
+  }
+
+  .chakra__img {
+   width: 10vw;
+   height: 5vh;
+   border-radius: 50%;
+   }
+  }
+ 
+
+
+/* alineacion de chakras en fibonacci vertical */
+
+.a {
+ position: absolute;
+ top: 120px;
+ left: -20px;
+ transform: scale(0.7) 
+}
+
+.b {
+ position: absolute;
+ top: 190px;
+ left: -90px;
+ transform: scale(0.8)
+}
+
+.c {
+ position: absolute;
+ top: 80px;
+ left: -130px;
+ transform: scale(0.9)
+}
+
+.d {
+ position: absolute;
+ top: 2px;
+ left: -40px;
+ transform: scale(1);
+}
+
+.e {
+ position: absolute;
+ top: 55px;
+ left: 70px;
+ transform: scale(1.1);
+}
+
+.f {
+ position: absolute;
+ top: 210px;
+ left: 115px;
+ transform: scale(1.2);
+}
+
+.g {
+ position: absolute;
+ top: 370px;
+ left: 25px;
+ transform: scale(1.3)
+}
